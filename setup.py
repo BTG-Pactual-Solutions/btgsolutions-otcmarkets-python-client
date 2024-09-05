@@ -22,7 +22,7 @@ description = "Python library to access BTG OTC Markets APIs."
 
 setup(
     name='btgsolutions-otcmarkets-python-client',
-    version='0.0.1',
+    version='0.0.3',
     description=description,
     long_description=long_description,
     long_description_content_type='text/markdown',
@@ -30,5 +30,5 @@ setup(
     packages=find_packages(),
     url="https://github.com/BTG-Pactual-Solutions/btgsolutions-otcmarkets-python-client",
     install_requires=install_requires,
-    python_requires=">=3.7.1,<=3.12",
+    python_requires=">=3.7.1",
 )
