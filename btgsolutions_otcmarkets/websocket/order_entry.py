@@ -113,7 +113,7 @@ class OrderEntry:
         on_acknowledgement: function
             - Called every time it receives an acknowledgement message. An acknowledgement message is a feedback message sent from server, whenever a client sends a message to it.
             - Arguments:
-                1. Execution report message.
+                1. Acknowledgement message.
             - Field is not required.
             - Default: print message.
 

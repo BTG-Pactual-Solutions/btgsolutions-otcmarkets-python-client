@@ -2,6 +2,8 @@
 
 Python library to access BTG OTC Markets.
 
+Official package docs are hosted at https://otcmarkets-python-docs.btgpactualsolutions.com/
+
 ## Installation
 
 ```bash

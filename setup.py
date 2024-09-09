@@ -22,7 +22,7 @@ description = "Python library to access BTG OTC Markets APIs."
 
 setup(
     name='btgsolutions-otcmarkets-python-client',
-    version='0.0.3',
+    version='0.0.4',
     description=description,
     long_description=long_description,
     long_description_content_type='text/markdown',

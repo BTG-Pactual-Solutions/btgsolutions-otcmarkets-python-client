@@ -103,14 +103,14 @@ class MarketDataStream:
         on_tob_update: function
             - Called every time it receives a top of book update message.
             - Arguments:
-                1. Execution report message.
+                1. Top Of Book update message.
             - Field is not required.
             - Default: print message.
 
         on_market_status: function
             - Called every time it receives a market status message.
             - Arguments:
-                1. Execution report message.
+                1. Market status message.
             - Field is not required.
             - Default: print message.
 

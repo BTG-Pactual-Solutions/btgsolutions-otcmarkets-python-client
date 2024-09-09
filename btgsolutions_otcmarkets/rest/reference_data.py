@@ -7,7 +7,7 @@ from .authenticator import Authenticator
 
 class ReferenceData:
     """
-    This class provides the Top Of Book for all tickers that have at least 1 placed order.
+    This class provides OTC Markets reference data, such as: available tickers, holidays, market status, etc.
 
     * Main use case:
 
@@ -148,7 +148,7 @@ class ReferenceData:
         raw_data: bool=False,
     ):
         """
-        This method provides Top Of Book for all tickers that have at least 1 placed order.
+        This method provides the list of holidays that the OTC Markets platform follows.
 
         Parameters
         ----------------
